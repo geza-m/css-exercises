@@ -5,11 +5,16 @@ body {
 img {
   width: 100px;
   height: 100px;
+ 
+}
+.images>div {
+  text-align: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
 
 /* do not edit this footer */
@@ -23,4 +28,7 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+.images {
+  display: flex;;
 }
